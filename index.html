@@ -1,6 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+</style>
+</head>
 <style>
 body {
   background-image: url('https://hardincountyfair.org/wp-content/uploads/2021/06/fair_kid-tractor-pull-768x635-1.jpeg');
@@ -22,8 +40,9 @@ body {
       <embed src="weather.txt">
 
       <h2> Tomorrow's Schedule is</h2>
-      <embed src="tomorrow.txt"
+      <embed src="tomorrow.txt">
   </div>
+
   <div class="column" style="background-color:#bbb;">
     <h2>Tomorrow's Scheudle is</h2>
     <p>Some text..</p>
